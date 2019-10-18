@@ -1,0 +1,160 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow:hidden;
+  background-color:#333;
+ 
+  top:0px; 
+
+
+}
+
+li 
+{
+  float: left;
+}
+
+li a, .dropbtn
+ {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn
+ {
+  background-color: red;
+}
+
+li.dropdown 
+{
+  display: inline-block;
+}
+
+.dropdown-content
+ {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a 
+{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover 
+{
+	background-color: #c07fdb;
+}
+
+.dropdown:hover .dropdown-content 
+{
+  display: block;
+}
+h1
+{
+	text-align:center;
+	padding-top:400px;
+	font-family:'Bangers', cursive;
+	font-size:100px;
+	color:black;
+}
+body
+{
+	background-color:#f5b8d0;
+}
+p
+{
+	font-size:36px;
+	
+	font-family: 'Barlow', sans-serif;
+}
+img.ow1 , .hro , .rein , .ashe , .mercy
+{
+	padding-left:10px;
+
+}
+h2
+{
+	font-size:30px;
+	font-family: 'Bangers', cursive;
+}
+table
+{
+	
+	font-family: 'Barlow Condensed', sans-serif;
+	
+}
+th
+{
+   
+   font-size:35px;
+  background-color:red;
+}
+td
+{
+	 border:2px solid black;
+}
+h3
+{
+	font-size:45px;
+	
+}
+footer
+{
+	text-align:center;
+	background-color:#e07bcc;
+}
+button
+{
+		font-size:20px;
+		cursor:pointer; 
+		background-color:#e07bcc;
+		
+}
+a
+{
+	color:red;
+}
+html
+{
+	scroll-behavior:smooth;
+}
+img
+{
+    padding-left:500px; padding-top:50px;
+}
+div.a
+{
+	width:100px; 
+	height:100px;  
+	animation-name:animation-1; 
+	animation-duration:5s; 
+	position:relative; 
+	animation-delay:2s; 
+	animation-iteration-count:infinite;
+	animation-direction:alternate;
+	animation-timing-function:ease-in;
+}
+@keyframes animation-1
+{0%{left:0px; top:0px;} 
+25%{left:200px; top:0px;} 
+50%{left:200px; top:200px;}
+ 75%{left:0px; top:200px;} 
+ 100%{left:0px; top:0px;}
+}
+img.css
+{
+	padding:0px;
+}
